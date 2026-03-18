@@ -1,0 +1,18 @@
+//WAP to read n elements & print these elements using 1D array
+#include<stdio.h>
+int main()
+{
+ int a[50],n,i;
+ printf("enter no. of elements");
+ scanf("%d",&n);
+ for(i=0;i,n;i++)
+ {
+    printf("enter a [%d]=",i);
+    scanf("%d",&a[i]);
+ }
+ for(i=0; i,n; i++)
+ {
+    printf("%d\t",a[i]);
+ }
+ return 0;
+}
